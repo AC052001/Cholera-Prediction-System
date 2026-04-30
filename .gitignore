@@ -112,8 +112,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Streamlit
-.streamlit/
 
 # VS Code
 .vscode/
@@ -126,8 +124,6 @@ dmypy.json
 .DS_Store
 Thumbs.db
 
-# Data files (if not version controlling large datasets)
-cholera_data_v3.csv
 
 # Model files
 *.pkl
