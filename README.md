@@ -12,6 +12,10 @@ This project implements a machine learning-based early warning system for choler
 - **Multi-page Interface**: Overview, Data Analysis, Model Training, and Forecasting sections
 - **Dark Theme UI**: Optimized for visual clarity and reduced eye strain
 
+<img width="1366" height="657" alt="Capture" src="https://github.com/user-attachments/assets/c3473e6c-f0a7-428d-8525-363cc8124d0f" />
+
+<img width="1365" height="656" alt="Capture1" src="https://github.com/user-attachments/assets/2b8d3b2b-41d3-4a26-8ba3-6a52870e37cf" />
+
 ## Dataset
 The system uses `cholera_data_v3.csv` containing district-level cholera cases and associated environmental variables including:
 - Temporal: year, month, day, week of outbreak
@@ -29,7 +33,7 @@ The system uses `cholera_data_v3.csv` containing district-level cholera cases an
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/cholera-prediction-system.git
+   git clone https://github.com/AC052001/Cholera-Prediction-System.git
    cd cholera-prediction-system
    ```
 
@@ -43,6 +47,10 @@ The system uses `cholera_data_v3.csv` containing district-level cholera cases an
    ```bash
    pip install -r requirements.txt
    ```
+   
+<img width="1366" height="656" alt="Capture2" src="https://github.com/user-attachments/assets/5ef4e644-a068-43b6-81f3-ed155b81b602" />
+
+<img width="1366" height="655" alt="Capture3" src="https://github.com/user-attachments/assets/07c8f7b4-71eb-488d-8702-86fffa75894a" />
 
 ## Usage
 1. Ensure the `cholera_data_v3.csv` file is in the project root directory
@@ -67,6 +75,8 @@ The prediction system employs a stacking ensemble approach:
   - Aggregated features (week number, coastal indicator)
 - **Target Variable**: Binary classification (above/below median cholera cases)
 
+<img width="1366" height="652" alt="Capture8" src="https://github.com/user-attachments/assets/c1fed5a2-2e41-4232-9964-245e188a230f" />
+
 ## File Structure
 ```
 cholera-prediction-system/
@@ -79,6 +89,10 @@ cholera-prediction-system/
 └── .streamlit/            # Streamlit configuration
     └── config.toml        # Streamlit theme and layout settings
 ```
+
+<img width="1366" height="655" alt="Capture9" src="https://github.com/user-attachments/assets/462c83c7-e46a-4f6f-bb99-b7b9cc9ea8a6" />
+
+<img width="1366" height="651" alt="Capture10" src="https://github.com/user-attachments/assets/a0c565eb-eab3-4cee-90d1-0e97a40b1622" />
 
 ## Dependencies
 Key Python packages required:
@@ -100,12 +114,20 @@ The model is evaluated using F2-score (emphasizing recall) and Precision-Recall 
 - Temperature × precipitation interaction as key environmental driver
 - Coastal districts showing elevated risk profiles
 
+<img width="1366" height="654" alt="Capture4" src="https://github.com/user-attachments/assets/035cb7fb-7a5a-406f-b462-f432ed8d7c81" />
+
 ## How to Contribute
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+<img width="1366" height="653" alt="Capture5" src="https://github.com/user-attachments/assets/22836924-8335-48b5-89fa-c14cb8dede9d" />
+
+<img width="1366" height="654" alt="Capture6" src="https://github.com/user-attachments/assets/54b7c63c-0182-41dc-9db2-437309327d64" />
+
+<img width="1366" height="656" alt="Capture7" src="https://github.com/user-attachments/assets/8355e5d2-a532-4fe1-bdc4-729f46e44308" />
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
