@@ -100,7 +100,6 @@ Key Python packages required:
 - pandas
 - numpy
 - scikit-learn
-- catboost==1.2.5
 - matplotlib
 - seaborn
 - shap
@@ -131,10 +130,6 @@ The model is evaluated using F2-score (emphasizing recall) and Precision-Recall 
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-- Open-source libraries: Streamlit, Scikit-learn, CatBoost, SHAP
-- Public health professionals working on cholera prevention and control
 
 ## Contact
 For questions or collaboration inquiries, please open an issue in the GitHub repository.
