@@ -1,0 +1,32 @@
+# ── Server Settings ─────────────────────────────
+[server]
+
+# REMOVED: server.disconnectedSessionTTL  — no longer a valid key (Streamlit >= 1.28)
+# REMOVED: server.websocketPingInterval   — no longer a valid key (Streamlit >= 1.28)
+# Session lifetime is now governed by the runner section below.
+
+# Allow large model objects to be transferred
+maxMessageSize         = 500      # MB
+
+# Headless — don't open browser automatically
+headless               = true
+
+# ── Theme ────────────────────────────────────────
+[theme]
+base                   = "dark"
+primaryColor           = "#3b82f6"
+backgroundColor        = "#0e1117"
+secondaryBackgroundColor = "#1f2937"
+textColor              = "#f9fafb"
+font                   = "sans serif"
+
+# ── Browser ──────────────────────────────────────
+[browser]
+# Don't gather usage stats
+gatherUsageStats       = false
+
+# ── Runner ───────────────────────────────────────
+[runner]
+# Don't fast-rerun on widget changes (stability)
+fastReruns             = false
+magicEnabled           = true
